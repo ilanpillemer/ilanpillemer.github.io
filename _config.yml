@@ -1,15 +1,15 @@
 # Site settings
-title: Lorem Ipsum - Web Developer
-description: "A blog about lorem ipsum ..."
-baseurl: "/space-jekyll-template" # the subpath of your site
-url: "http://victorvoid.github.io"
+title: Wandering Lonely as a Cloud
+description: "I am what I was when I will ..."
+baseurl: "/ilanpillemer.github.io" # the subpath of your site
+url: "http://ilanpillemer.github.io"
 
 # User settings
-username: lorem ipsum
-user_title: Lorem Ipsum - FrontEnd
-email: lorem.lorem@ipsum.com
-twitter_username: loremipsum
-github_username:  loremipsum
+username: ilanpillemer
+user_title: A human being
+email: ilan.pillemer@gmail.com
+twitter_username: loremi
+github_username:  ilanpillemer
 gplus_username:  loremipsum
 disqus_username: loremipsum
 
@@ -40,11 +40,7 @@ links:
     url: /about
 # projects in header index
 projects:
-  - name: asciilang
-    url: https://github.com/victorvoid/asciilang
-  - name: vim-frontend
-    url: https://github.com/victorvoid/vim-frontend
-  - name: generator-capybara
-    url: https://github.com/victorvoid/generator-capybara 
+  - name: sample-room-prolog
+    url: https://github.com/gameontext/sample-room-prolog
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
