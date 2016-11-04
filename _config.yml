@@ -42,5 +42,12 @@ links:
 projects:
   - name: sample-room-prolog
     url: https://github.com/gameontext/sample-room-prolog
+readings:
+  - name: Game On! (gitbook)
+    url: https://gameontext.gitbooks.io/gameon-gitbook/content/
+  - name: The Google File System (paper)
+    url: http://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf
+  - name: MapReduce (paper)
+    url: http://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
