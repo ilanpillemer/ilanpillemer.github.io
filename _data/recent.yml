@@ -3,12 +3,15 @@ projects:
   - name: sample-room-prolog
     url: https://github.com/gameontext/sample-room-prolog
 readings:
+  - name: Jekyll (documentation)
+    url: https://jekyllrb.com/docs/home/
   - name: Game On! (gitbook)
     url: https://gameontext.gitbooks.io/gameon-gitbook/content/
-  - name: The Google File System (paper)
-    url: http://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf
   - name: MapReduce (paper)
     url: http://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf
 finished:
   - name: Unskilled and Unaware of It (paper)
     url: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.64.2655&rep=rep1&type=pdf
+  - name: The Google File System (paper)
+    url: http://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf
+
