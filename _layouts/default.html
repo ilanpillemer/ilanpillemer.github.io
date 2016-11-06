@@ -4,13 +4,14 @@ layout: compress
 
 <!DOCTYPE html>
 <html lang="pt-br">
-    {% include head.html %}
-    <body>
-        {% include svg-icons.html %}
-        {% include header-default.html %}
-            <section class="content">
-                {{ content }}
-            </section>
-        {% include scripts.html %}
-    </body>
+  {% include head.html %}
+  <body>
+    {% include svg-icons.html %}
+    {% include header-default.html %}
+    <!-- <section id="scroll" class="content"> -->
+    <!--   {{ content }} -->
+    <!-- </section> -->
+    {% include footer.html %}     
+    {% include scripts.html %}
+  </body>
 </html>
