@@ -4,7 +4,7 @@ projects:
     url: https://github.com/gameontext/sample-room-prolog
 readings:
   - name: Weld (documentation)
-    url: http://weld.cdi-spec.org/
+    url: http://docs.jboss.org/weld/reference/latest/en-US/html_single/
   - name: Jekyll (documentation)
     url: https://jekyllrb.com/docs/home/
   - name: Game On! (gitbook)
