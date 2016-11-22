@@ -3,6 +3,8 @@ projects:
   - name: sample-room-prolog
     url: https://github.com/gameontext/sample-room-prolog
 readings:
+  - name: Jersey (documentation)
+    url: https://jersey.java.net/documentation/latest/user-guide.html
   - name: Weld (documentation)
     url: http://docs.jboss.org/weld/reference/latest/en-US/html_single/
   - name: Jekyll (documentation)
