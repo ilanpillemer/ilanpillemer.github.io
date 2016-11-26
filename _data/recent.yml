@@ -3,6 +3,8 @@ projects:
   - name: sample-room-prolog
     url: https://github.com/gameontext/sample-room-prolog
 readings:
+  - name: Junit 5 (user-guide)
+    url : http://junit.org/junit5/docs/current/user-guide/
   - name: Jersey (documentation)
     url: https://jersey.java.net/documentation/latest/user-guide.html
   - name: Weld (documentation)
