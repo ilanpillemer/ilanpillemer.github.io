@@ -9,18 +9,19 @@
     url: https://jekyllrb.com/docs/home/
   - name: Game On! (gitbook)
     url: https://gameontext.gitbooks.io/gameon-gitbook/content/
- finishes:
-  - name: Junit 5 (user-guide)
-    url: http://junit.org/junit5/docs/current/user-guide/
-  - name: Jersey (documentation)
-    url: https://jersey.java.net/documentation/latest/user-guide.html
-  - name: Weld (documentation)
-    url: http://docs.jboss.org/weld/reference/latest/en-US/html_single/
+ finished:
   - name: Unskilled and Unaware of It (paper)
     url: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.64.2655&rep=rep1&type=pdf
   - name: The Google File System (paper)
     url: http://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf
   - name: MapReduce (paper)
     url: http://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf
+  - name: Junit 5 (user-guide)
+    url: http://junit.org/junit5/docs/current/user-guide/
+  - name: Jersey (documentation)
+    url: https://jersey.java.net/documentation/latest/user-guide.html
+  - name: Weld (documentation)
+    url: http://docs.jboss.org/weld/reference/latest/en-US/html_single/
  novels:
-  - name: It Can't Happen Here by Sinclair Lewis 
+  - name: It Can't Happen Here by Sinclair Lewis
+    url: http://central.gutenberg.org/articles/it_can't_happen_here 
