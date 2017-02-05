@@ -22,6 +22,7 @@ readings:
 
 ---
 Shout out to [victorvoid](https://github.com/victorvoid), as I forked his [repository](https://github.com/victorvoid/space-jekyll-template) - and then proceeded to "improve".. ;)
+
 ```javascript
 gulp.task('default', ['js', 'stylus', 'browser-sync', 'watch']);
 ```
