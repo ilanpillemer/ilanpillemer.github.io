@@ -18,6 +18,7 @@ readings:
 * browsersynch is nice. 
   * To use all the gulp stuff and also use the jeykll stuff then one needs to pwn the other.
   * iow, If gulp is calling jekyll, make sure you understand how they interact.
+  * use the browsersync port when developing
 
 ---
 Shout out to [victorvoid](https://github.com/victorvoid), as I forked his [repository](https://github.com/victorvoid/space-jekyll-template) - and then proceeded to "improve".. ;)
