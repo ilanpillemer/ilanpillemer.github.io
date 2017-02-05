@@ -2,6 +2,7 @@
 projects:
   - name: sample-room-prolog
     url: https://github.com/gameontext/sample-room-prolog
+
 readings:
   - name: Geometry and Meaning by Dominic Widdows
     url : https://web.stanford.edu/group/cslipublications/cslipublications/site/1575864487.shtml
@@ -9,7 +10,8 @@ readings:
     url: https://jekyllrb.com/docs/home/
   - name: Game On! (gitbook)
     url: https://gameontext.gitbooks.io/gameon-gitbook/content/
-  finished:
+  
+finished:
   - name: Junit 5 (user-guide)
     url : http://junit.org/junit5/docs/current/user-guide/
   - name: Jersey (documentation)
@@ -22,5 +24,6 @@ readings:
     url: http://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf
   - name: MapReduce (paper)
     url: http://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf
-  novels:
-    - name: It Can't Happen Here by Sinclair Lewis 
+  
+ novels:
+  - name: It Can't Happen Here by Sinclair Lewis 
