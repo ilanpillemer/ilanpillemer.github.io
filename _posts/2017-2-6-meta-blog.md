@@ -3,14 +3,15 @@ layout: post
 title: Jekyll, Gulp, Stylus, Browsersynch, aha!
 ---
 
-Notes on the tool used for this blog. Updated with notes to myself.
+<tl;dr>
+
+This post is continuously updated as a reference point for myself when tooling this Jekyll blog.
 
 ```
 readings:
   - name: Jekyll (documentation)
     url: https://jekyllrb.com/docs/home/
 ```
-<tl;dr>
 
 * _config.yml does not get picked up by the watcher. 
   * which means.. The only config you want in the _config.yml file is config that you don't change and you don’t want to change.
