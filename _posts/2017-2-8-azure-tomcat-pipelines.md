@@ -34,4 +34,12 @@ pipelines:
   * `-p` enables the specification of a password
   * `-R` does a recursive mode copy; copy whole directory tree.. (hmmmm..)
 * bitbucket pipelines provide environment variables to secure passwords etc
+
+---
+
+*TODO*
   
+There is an awkward period when the application is deploying and the site
+it not available. 
+
+This can be solved using [blue green delployments](https://martinfowler.com/bliki/BlueGreenDeployment.html); which can be realised in Azure through the "deployment slots" and "testing in production" features. 

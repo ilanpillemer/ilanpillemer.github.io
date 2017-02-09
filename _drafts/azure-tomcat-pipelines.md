@@ -1,6 +1,6 @@
 ---
 layout: post
-title: azure tomcat bitbucket pipelines ci deploy
+title: azure, tomcat, bitbucket, pipelines, ci, deploy
 ---
 
 <tl;dr>
@@ -19,7 +19,7 @@ pipelines:
           - ncftpput -v -u "$FTP_USERNAME" -p "$FTP_PASSWORD" -R $FTP_SERVER /site/wwwroot/webapps /opt/atlassian/pipelines/agent/build/my-service/target/ROOT.war
 ```
 
-* above file is called `bitbucket-pipelines.yml` and needs to be placed the root of the git repository in bitbucket, [pipelines](https://confluence.atlassian.com/bitbucket/configure-bitbucket-pipelines-yml-792298910.html) must be enabled.
+* above file is called `bitbucket-pipelines.yml` and needs to be placed in the root of the git repository in bitbucket, [pipelines](https://confluence.atlassian.com/bitbucket/configure-bitbucket-pipelines-yml-792298910.html) must be enabled.
 * [pipelines](https://confluence.atlassian.com/bitbucket/configure-bitbucket-pipelines-yml-792298910.html) uses a base docker image but you can specify one that has what you need.
   * [maven](http://maven.apache.org/) is what I needed.
 * tomcat does [auto deployment stuff](https://tomcat.apache.org/tomcat-8.0-doc/config/host.html#Automatic_Application_Deployment) if you name the war file and put it in the expected place.
@@ -34,4 +34,12 @@ pipelines:
   * `-p` enables the specification of a password
   * `-R` does a recursive mode copy; copy whole directory tree.. (hmmmm..)
 * bitbucket pipelines provide environment variables to secure passwords etc
+
+---
+
+*TODO*
   
+There is an awkward period when the application is deploying and the site
+it not available. 
+
+This can be solved using [blue green delployments](https://martinfowler.com/bliki/BlueGreenDeployment.html); which can be realised in Azure through the "deployment slots" and "testing in production" features. 
