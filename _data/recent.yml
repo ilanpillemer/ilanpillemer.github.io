@@ -7,6 +7,8 @@
  readings:
   - name: An Introduction to Statistical Learning with Applications in R by Gareth James, Daniela Witten, Trevor Hastie and Robert Tibshirani
     url: http://www-bcf.usc.edu/~gareth/ISL/
+  - name: Scala for the Impatient by Cay S. Horstmann
+    url: http://www.horstmann.com/scala/index.html
   - name: Geometry and Meaning by Dominic Widdows
     url: https://web.stanford.edu/group/cslipublications/cslipublications/site/1575864487.shtml
   - name: Jekyll (documentation)
