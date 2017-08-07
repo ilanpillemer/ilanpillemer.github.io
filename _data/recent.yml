@@ -1,8 +1,12 @@
 # projects in header index
  projects:
+  - name: sample-scala-room
+    url: https://github.com/gameontext/sample-scala-room
   - name: sample-room-prolog
     url: https://github.com/gameontext/sample-room-prolog
  readings:
+  - name: An Introduction to Statistical Learning with Applications in R by Gareth James, Daniela Witten, Trevor Hastie and Robert Tibshirani
+    url: http://www-bcf.usc.edu/~gareth/ISL/
   - name: Geometry and Meaning by Dominic Widdows
     url: https://web.stanford.edu/group/cslipublications/cslipublications/site/1575864487.shtml
   - name: Jekyll (documentation)
@@ -23,5 +27,7 @@
   - name: Weld (documentation)
     url: http://docs.jboss.org/weld/reference/latest/en-US/html_single/
  novels:
+  - name: His Dark Materials by Philip Pullman
+    url: https://en.wikipedia.org/wiki/His_Dark_Materials
   - name: It Can't Happen Here by Sinclair Lewis
     url: http://central.gutenberg.org/articles/it_can't_happen_here 
