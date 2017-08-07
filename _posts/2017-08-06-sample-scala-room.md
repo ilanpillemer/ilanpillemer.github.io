@@ -54,8 +54,6 @@ payload: String =
 }
 ```
 
-`<!--more-->`
-
 ## Day 2
 
 - Learn about how the play framework works with [json](https://www.playframework.com/documentation/2.6.x/ScalaJson)
