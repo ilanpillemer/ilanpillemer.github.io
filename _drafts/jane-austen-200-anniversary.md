@@ -1,18 +1,15 @@
 ---
 layout: post
-title: A room for the 200th anniversary of Jane Austen
+title: A Room for Jane Austen
 summary: Exploration of ngrams and using ngram probabilities to construct sentences.
 tags: [fun, profit, hadoop, java. scala]
 author: ilan
 ---
-## tl;dr
-
-- [advanced adventures](https://book.gameontext.org/walkthroughs/creatingYourOwnRoom.html).
 ## Day 0
 ### The Conjecture
 Over the last year I have been thinking, reading and learning about
 `words in documents`. And what kind of information can be extracted
-from `words in documents`. One interesting avenue of exploration
+from `words in documents`. One interesting avenue of exploration is:
 - the probabilities of two words appearing next to each other in a
 particular order. 
 - The probability of three words appearing next to each other ... 
