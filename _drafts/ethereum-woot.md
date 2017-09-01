@@ -16,6 +16,15 @@ So you need to write your Ethereum contracts in a language that can be compiled 
 - [emacs plugin](https://github.com/ethereum/emacs-solidity)
 ### Argh!
 - https://github.com/ethereum/go-ethereum/issues/3793
+### Add test account to geth
+```
+Ilans-MacBook-Pro-2:~ ilanpillemer$ geth account import ./.test_priv_key_ethereum 
+WARN [09-01|23:36:03] No etherbase set and no accounts found as default 
+Your new account is locked with a password. Please give a password. Do not forget this password.
+Passphrase: 
+Repeat passphrase: 
+Address: {a0447afd72c9945faa830277f75e963839cf57c1}
+```
 
 ### Hello World!
 - https://www.ethereum.org/greeter
