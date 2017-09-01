@@ -24,7 +24,10 @@ Your new account is locked with a password. Please give a password. Do not forge
 Passphrase: 
 Repeat passphrase: 
 Address: {a0447afd72c9945faa830277f75e963839cf57c1}
+...
+geth attach ipc://Users/ilanpillemer/Library/Ethereum/testnet/geth.ipc
 ```
+and remember there are different keystores for the mainchain and testnet
 
 ### Hello World!
 - https://www.ethereum.org/greeter
