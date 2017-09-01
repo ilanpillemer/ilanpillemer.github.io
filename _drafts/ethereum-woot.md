@@ -14,6 +14,8 @@ So to begin I need to install and learn some stuff beginning here
 So you need to write your Ethereum contracts in a language that can be compiled to the EVM.
 - http://solidity.readthedocs.io/en/develop/installing-solidity.html
 - [emacs plugin](https://github.com/ethereum/emacs-solidity)
+### Argh!
+- https://github.com/ethereum/go-ethereum/issues/3793
 
 ### Hello World!
 - https://www.ethereum.org/greeter
