@@ -17,6 +17,7 @@ So you need to write your Ethereum contracts in a language that can be compiled 
 
 ### Hello World!
 - https://www.ethereum.org/greeter
+- https://github.com/ethereum/go-ethereum/wiki/Contract-Tutorial
 
 ### If I was a rich man....
 ... then I would could spend gas and experiment on the main chain.
