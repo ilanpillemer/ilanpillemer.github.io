@@ -45,3 +45,7 @@ It should return a number less than 60s....
 ... then I would could spend gas and experiment on the main chain.
 But I am not; so need to work on a test chain.
 - https://github.com/ethereum/ropsten
+
+### Getting a life cycle into play
+I will need a way to write and run contracts locally before deploying to a testnet and eventually to the mainnet.
+* https://github.com/ethereumjs/testrpc
