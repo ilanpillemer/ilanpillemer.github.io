@@ -29,6 +29,13 @@ geth attach ipc://Users/ilanpillemer/Library/Ethereum/testnet/geth.ipc
 ```
 and remember there are different keystores for the mainchain and testnet.
 and remember you need to wait for the testnet to sync to a recent enough block to see your correct balance
+####
+and wait...
+- you can check if the chain is synced with the following command
+```
+Date.now() / 1000 - web3.eth.getBlock('latest').timestamp
+```
+It should return a number less than 60s....
 
 ### Hello World!
 - https://www.ethereum.org/greeter
