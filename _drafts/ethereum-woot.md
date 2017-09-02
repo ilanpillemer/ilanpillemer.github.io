@@ -52,3 +52,34 @@ I will need a way to write and run contracts locally before deploying to a testn
 
 And a way to run unit tests
 * http://truffleframework.com/
+
+Ilans-MBP-2:solidity-helloworld ilanpillemer$ truffle init
+Downloading project...
+Project initialized.
+
+  Documentation: http://truffleframework.com/docs
+
+Commands:
+
+  Compile: truffle compile
+  Migrate: truffle migrate
+  Test:    truffle test
+
+Ilans-MBP-2:solidity-helloworld ilanpillemer$ tree .
+.
+├── contracts
+│   ├── ConvertLib.sol
+│   ├── MetaCoin.sol
+│   └── Migrations.sol
+├── migrations
+│   ├── 1_initial_migration.js
+│   └── 2_deploy_contracts.js
+├── test
+│   ├── TestMetacoin.sol
+│   └── metacoin.js
+└── truffle.js
+
+3 directories, 8 files
+Ilans-MBP-2:solidity-helloworld ilanpillemer$ 
+```
+```
