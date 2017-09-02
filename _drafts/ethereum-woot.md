@@ -49,5 +49,6 @@ But I am not; so need to work on a test chain.
 ### Getting a life cycle into play
 I will need a way to write and run contracts locally before deploying to a testnet and eventually to the mainnet.
 * https://github.com/ethereumjs/testrpc
+
 And a way to run unit tests
 * http://truffleframework.com/
