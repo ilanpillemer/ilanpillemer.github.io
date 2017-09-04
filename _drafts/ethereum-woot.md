@@ -156,3 +156,4 @@ Output Components:
 	
 ```
 * https://ethereum.stackexchange.com/questions/15435/how-to-compile-solidity-contracts-with-geth-v1-6
+* https://www.blockchain-council.org/blockchain/how-to-sync-entire-ethereum-client-in-2-3-hours-for-testnet-mainnet-parity/
