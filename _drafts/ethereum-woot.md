@@ -152,3 +152,4 @@ Output Components:
   --formal             Translated source suitable for formal analysis.
 	
 ```
+* https://ethereum.stackexchange.com/questions/15435/how-to-compile-solidity-contracts-with-geth-v1-6
