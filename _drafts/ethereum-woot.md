@@ -58,3 +58,9 @@ And then discover this, which is showstopper for me.
 
 So look for a less controlling, more pluggable environment... perhaps this
 * https://github.com/pipermerriam/populus
+
+Not so sure about any of these test frameworks actually. Pausing for now on that as they do work, if kludgy.
+
+### Compiling and Deploying
+
+- https://ethereum.gitbooks.io/frontier-guide/content/creating_contract.html
