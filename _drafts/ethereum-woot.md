@@ -66,6 +66,18 @@ Not so sure about any of these test frameworks actually. Pausing for now on that
 - https://ethereum.gitbooks.io/frontier-guide/content/creating_contract.html
 
 ```
+primaryAddress = eth.accounts[0]
+MyContract = eth.contract(abi);
+contact = MyContract.new(arg1, arg2, ...,{from: primaryAddress, data: evmCode})
+<or>
+MyContract.new([arg1, arg2, ...,]{from: primaryAccount, data: evmCode}, function(err, contract) {
+  if (!err && contract.address)
+    console.log(contract.address); 
+});
+```
+
+- compiling
+```
 solc, the Solidity commandline compiler.
 
 This program comes with ABSOLUTELY NO WARRANTY. This is free software, and you
