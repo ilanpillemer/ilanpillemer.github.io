@@ -35,6 +35,10 @@ and wait...(it took way longer than I expected)
 ```
 Date.now() / 1000 - web3.eth.getBlock('latest').timestamp
 ```
+- you can check your ether in your account with
+```
+web3.fromWei(eth.getBalance(eth.coinbase), "ether")
+```
 It should return a number less than 60s....
 
 ### Hello World!
