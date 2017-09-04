@@ -69,7 +69,9 @@ Not so sure about any of these test frameworks actually. Pausing for now on that
 primaryAddress = eth.accounts[0]
 MyContract = eth.contract(abi);
 contact = MyContract.new(arg1, arg2, ...,{from: primaryAddress, data: evmCode})
-<or>
+```
+or
+```
 MyContract.new([arg1, arg2, ...,]{from: primaryAccount, data: evmCode}, function(err, contract) {
   if (!err && contract.address)
     console.log(contract.address); 
