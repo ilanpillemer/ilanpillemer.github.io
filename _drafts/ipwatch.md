@@ -5,7 +5,7 @@ title: "a file watcher"
 
 # a little watcher for myself
 
-something which is nice is to be able to is to set a watcher in a directory with 
+something which is nice is to be able to set a watcher in a directory with 
 some kind of instruction on what to do, if a file is changed in that directory.
 
 this is a solved problem in general for example...
