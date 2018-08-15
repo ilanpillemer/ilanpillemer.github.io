@@ -1,5 +1,7 @@
 # projects in header index
  projects:
+  - name: apue in golang
+    url: https://github.com/ilanpillemer/apue
   - name: sample-scala-room
     url: https://github.com/gameontext/sample-scala-room
   - name: sample-room-prolog
