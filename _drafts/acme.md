@@ -1,3 +1,8 @@
+---
+layout: post
+title: "acme and me...em dna emca"
+---
+
 # Acme and Me
 
 After trying several different ways of installing plan9port, eventually
