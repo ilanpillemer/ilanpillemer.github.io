@@ -43,13 +43,17 @@ acme	font
 9pfuse `namespace`/font /mnt/font
 
 9 acme -f /mnt/font/Hack-Regular/13a/font -a -m
-9 acme -f /mnt/font/FiraCode-Regular/13a/font -m /mnt/acme -a
+9 acme -f /mnt/font/FiraCode-Regular/13a/font -a
+9pfuse `namespace`/acme /mnt/acme
 
 ```
 
 [osxfuse](https://osxfuse.github.io/) can be installed from a homebrew cask easily.
 
-[ohnoes](https://github.com/9fans/plan9port/issues/136)
+[ohnoes](https://github.com/9fans/plan9port/issues/136), so dont mount acme using osxfuse with `-m` switch 
+for now...
+
+
 
 #### notes to self
 
