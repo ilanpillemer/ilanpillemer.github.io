@@ -1,3 +1,5 @@
+# Acme and Me
+
 After trying several different ways of installing plan9port, eventually
 realised that the best way is to fork the repo, pull and and follow install instructions.
 
@@ -19,6 +21,14 @@ The reasons are as follows
 ```
 
 #### notes to self
+
+### Consider
+
+Moving git repo appropriately and installing again at
+    /usr/local/plan9 
+
+
+### hhmmm
 try this font
 
     /usr/lib/plan9/font/lucsans/typeunicode.7.font
