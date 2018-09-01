@@ -12,11 +12,10 @@ The reasons are as follows
 
 1. The homebrew version installs a version that is full of bugs and
    you have add a switch to build the latest from head anyway.
-2. Although I understand the need for a minimal key-board shortcuts, I
-   for one need to be able to go up and down one line without having
    to reach for the mouse. This means being able to patch the code.
-3. The way homebrew installs it is not aligned with most of the tooling 
-   built by others and then things don't work without fidgeting.   
+2. The way homebrew installs it is not aligned with most of the tooling 
+   built by others and then things don't work without fidgeting.  
+3. If I want to patch anything, the path is easy. 
    
    
 # various changes to profile environment
@@ -24,6 +23,33 @@ The reasons are as follows
 	PLAN9=/Users/ilanpillemer/git/plan9port export PLAN9
 	PATH=$PATH:$PLAN9/bin export PATH
 ```
+
+# FUSE
+
+Acme presents to other programmes as a file system. And Acme serves the Plan 9 File Protocol. FUSE allows you mount Acme into the kernel file tree, which means you don't need to have special support in any programme you would like to interact with acme.
+
+If you have not mounted the file system with FUSE you can still interact with the acme fileserver via `9p`
+    9p ls acme
+
+All the file servers from 9plan are announced as unix sockets in a namespace directory onto 
+which FUSE can mount.
+
+```
+plan9port (master) -> namespace
+/tmp/ns.ilanpillemer._private_tmp_com.apple.launchd.RyJOO9IIg7_org.macosforge.xquartz:0
+plan9port (master) -> ls `namespace`
+acme	font
+
+9pfuse `namespace`/font /mnt/font
+
+9 acme -f /mnt/font/Hack-Regular/13a/font -a -m
+9 acme -f /mnt/font/FiraCode-Regular/13a/font -m /mnt/acme -a
+
+```
+
+[osxfuse](https://osxfuse.github.io/) can be installed from a homebrew cask easily.
+
+[ohnoes](https://github.com/9fans/plan9port/issues/136)
 
 #### notes to self
 
@@ -33,37 +59,9 @@ Moving git repo appropriately and installing again at
     /usr/local/plan9 
 
 
+
 ### hhmmm
 try this font
 
     /usr/lib/plan9/font/lucsans/typeunicode.7.font
 
-a 
-b 
-c 
-d 
-e 
-f 
-g 
-h
-i 	
-j 
-
-k 
-l 
-m 
-n 
-o 
-p 
-q 
-r 
-s 
-t 
-
-v 
-
-x 
-y 
-z 
-
-1234567890:",.///////``=
