@@ -62,7 +62,7 @@ for now...
 
 ## go through the following link and mind meld from it
 
-[https://groups.google.com/forum/#!topic/comp.os.plan9/_YUEVbTFuME%5B1-25%5D](mind meld)
+[mind meld](https://groups.google.com/forum/#!topic/comp.os.plan9/_YUEVbTFuME%5B1-25%5D)
 
 ### Consider
 
