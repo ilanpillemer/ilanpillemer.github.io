@@ -47,6 +47,11 @@ Some fonts to try and compare
 9 acme -f /mnt/font/Hack-Regular/13a/font -a -m
 9 acme -f /mnt/font/FiraCode-Regular/13a/font -a
 9 acme -f /mnt/font/FiraCode-Medium/13a/font -a
+
+You can also try out different fonts in a window by executing something like the below
+
+    Font /mnt/font/Hack-Regular/13a/font
+    
 9pfuse `namespace`/acme /mnt/acme
 
 [more fonts can be found here..](https://fonts.google.com/)s
