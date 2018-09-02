@@ -50,8 +50,11 @@ Some fonts to try and compare
 9pfuse `namespace`/acme /mnt/acme
 
 [more fonts can be found here..](https://fonts.google.com/)s
-
 ```
+
+If you are fused you can create new windows in acme very easily via the mount
+through commands such as
+    grep -n ilan * >> /mnt/acme/new/body
 
 [osxfuse](https://osxfuse.github.io/) can be installed from a homebrew cask easily.
 
