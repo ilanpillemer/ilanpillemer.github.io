@@ -34,7 +34,7 @@ some useful utility from the commmunity.
    
 # various changes to profile environment
 ```
-	PLAN9=/Users/ilanpillemer/git/plan9port export PLAN9
+    PLAN9=/usr/local/plan9 export PLAN9
 	PATH=$PATH:$PLAN9/bin export PATH
 ```
 
@@ -47,6 +47,12 @@ If you have not mounted the file system with FUSE you can still interact with th
 
 All the file servers from 9plan are announced as unix sockets in a namespace directory onto 
 which FUSE can mount.
+
+```
+brew cask install osxfuse
+```
+
+After rebooting and setting necessary permissions for osxfuse.
 
 ```
 plan9port (master) -> namespace
