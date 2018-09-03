@@ -111,6 +111,14 @@ Fill in some details
 ### unindent region saved as `a-` in `~\bin`
 
     sed s'/^    '//
+
+### comment region saved as `c+` in `~\bin`
+
+    sed s'/^'/'\/\/'//
+    
+### uncomment region saved as `c-` in `~\bin`
+
+    sed s'/^\/\/'//
     
 #### notes to self
 
