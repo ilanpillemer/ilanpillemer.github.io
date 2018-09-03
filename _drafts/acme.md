@@ -118,7 +118,9 @@ Fill in some details
     
 ### uncomment region saved as `c-` in `~\bin`
 
-    sed s'/^\/\/'//
+    sed s@^['	'' ']*//@@ 
+    
+NB: One or more tabs or spaces....   
     
 #### notes to self
 
