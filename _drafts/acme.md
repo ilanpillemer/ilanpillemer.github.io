@@ -106,11 +106,15 @@ Fill in some details
 
 ### indent region saved as `a+` in `~\bin`
 
-    sed s'/^'/'    '/
-    
+    sed s'/^'/'	'/
+
+NB: Thats a tab, even if you can't see it
+ 
 ### unindent region saved as `a-` in `~\bin`
 
-    sed s'/^    '//
+    sed s'/^	'//
+
+NB: Thats a tab, even if you can't see it
 
 ### comment region saved as `c+` in `~\bin`
 
