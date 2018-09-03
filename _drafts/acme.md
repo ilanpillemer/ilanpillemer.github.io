@@ -46,7 +46,7 @@ If you have not mounted the file system with FUSE you can still interact with th
     9p ls acme
 
 All the file servers from 9plan are announced as unix sockets in a namespace directory onto 
-which FUSE can mount.
+which FUSE can mount. see [osxfuse](https://osxfuse.github.io/) 
 
 ```
 brew cask install osxfuse
@@ -62,7 +62,7 @@ acme	font
 
 9pfuse `namespace`/font /mnt/font
 
-Some fonts to try and compare 
+Some fonts to try and compare.... [more fonts can be found here..](https://fonts.google.com/)
 
 9 acme -f /mnt/font/Hack-Regular/13a/font -a -m
 9 acme -f /mnt/font/FiraCode-Regular/13a/font -a
@@ -74,7 +74,6 @@ You can also try out different fonts in a window by executing something like the
     
 9pfuse `namespace`/acme /mnt/acme
 
-[more fonts can be found here..](https://fonts.google.com/)s
 ```
 
 If you are fused you can create new windows in acme very easily via the mount
@@ -82,11 +81,37 @@ through commands such as
 
     grep -n ilan * >> /mnt/acme/new/body
 
-[osxfuse](https://osxfuse.github.io/) can be installed from a homebrew cask easily.
 
 [ohnoes](https://github.com/9fans/plan9port/issues/136), so dont mount acme using osxfuse with `-m` switch 
 for now...
 
+
+# Essential tools to be productive
+
+## From the community
+
+### acmego
+
+Fill in some details
+
+### godef
+
+Fill in some details
+
+### Watch
+
+Fill in some details
+
+## You also need to add some of your own
+
+### indent region saved as `a+` in `~\bin`
+
+    sed s'/^'/'    '/
+    
+### unindent region saved as `a-` in `~\bin`
+
+    sed s'/^    '//
+    
 #### notes to self
 
 ## go through the following link and mind meld from it
