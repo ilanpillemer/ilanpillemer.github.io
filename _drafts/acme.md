@@ -16,7 +16,21 @@ The reasons are as follows
 2. The way homebrew installs it is not aligned with most of the tooling 
    built by others and then things don't work without fidgeting.  
 3. If I want to patch anything, the path is easy. 
-   
+
+```
+git clone git@github.com:ilanpillemer/plan9port.git plan9
+git remote upstream add git@github.com:9fans/plan9port.git
+```
+
+According to the documentation the standard place for plan 9 is
+
+    /usr/local/plan9 
+
+Set up a symbolic link and build in there. I think this is probably
+better, just in case someone has hard coded that path somewhere in
+some useful utility from the commmunity.
+
+    sudo ln -s /Users/ilanpillemer/git/plan9 /usr/local/plan9
    
 # various changes to profile environment
 ```
@@ -72,13 +86,6 @@ for now...
 ## go through the following link and mind meld from it
 
 [mind meld](https://groups.google.com/forum/#!topic/comp.os.plan9/_YUEVbTFuME%5B1-25%5D)
-
-### Consider
-
-Moving git repo appropriately and installing again at
-    /usr/local/plan9 
-
-
 
 ### hhmmm
 try this font
