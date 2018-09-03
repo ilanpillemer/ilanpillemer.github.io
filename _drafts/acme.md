@@ -12,10 +12,9 @@ The reasons are as follows
 
 1. The homebrew version installs a version that is full of bugs and
    you have add a switch to build the latest from head anyway.
-   to reach for the mouse. This means being able to patch the code.
-2. The way homebrew installs it is not aligned with most of the tooling 
+2. The way homebrew installs it is not aligned with some of the tooling 
    built by others and then things don't work without fidgeting.  
-3. If I want to patch anything, the path is easy. 
+3. If I do want to patch anything, the path is easier. 
 
 ```
 git clone git@github.com:ilanpillemer/plan9port.git plan9
@@ -46,7 +45,7 @@ If you have not mounted the file system with FUSE you can still interact with th
     9p ls acme
 
 All the file servers from 9plan are announced as unix sockets in a namespace directory onto 
-which FUSE can mount. see [osxfuse](https://osxfuse.github.io/) 
+which [FUSE](https://osxfuse.github.io/) can mount.  
 
 ```
 brew cask install osxfuse
@@ -64,9 +63,11 @@ acme	font
 
 Some fonts to try and compare.... [more fonts can be found here..](https://fonts.google.com/)
 
-9 acme -f /mnt/font/Hack-Regular/13a/font -a -m
+9 acme -f /mnt/font/Hack-Regular/13a/font -a
 9 acme -f /mnt/font/FiraCode-Regular/13a/font -a
 9 acme -f /mnt/font/FiraCode-Medium/13a/font -a
+9 amme -f /mnt/font/lucsans/typeunicode.7.font
+
 
 You can also try out different fonts in a window by executing something like the below
 
@@ -83,7 +84,7 @@ through commands such as
 
 
 [ohnoes](https://github.com/9fans/plan9port/issues/136), so dont mount acme using osxfuse with `-m` switch 
-for now...
+for now... will dig deeper later when I want to use the mount
 
 
 # Essential tools to be productive
@@ -135,5 +136,4 @@ NB: One or more tabs or spaces....
 ### hhmmm
 try this font
 
-    /usr/lib/plan9/font/lucsans/typeunicode.7.font
 
