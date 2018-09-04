@@ -125,8 +125,30 @@ NB: Thats a tab, even if you can't see it
 
     sed s@^['	'' ']*//@@ 
     
-NB: One or more tabs or spaces....   
+NB: One or more tabs or spaces....  
+
+### format comments saved as `cmft` in `~\bin`
+
+    c- | fmt -l 60 | c+
+
+NB: See how design philosophy works of building tools on tools here.  
+
+### jump to source code for golang method saved as `def` in `~\bin`
+
+    godef -acme
     
+### find all references of saved as `g` in `~\bin`
+
+    grep -n
+
+### open acme saved as `acme` in `~\bin`
+
+```
+9 fontsrv &
+9pfuse `namespace`/font $HOME/mnt/font
+9 acme -f '/Users/ilanpillemer/mnt/font/FiraCode-Medium/15a/font' -a -l acme.dump $*  
+```
+     
 #### notes to self
 
 ## go through the following link and mind meld from it
@@ -137,3 +159,4 @@ NB: One or more tabs or spaces....
 try this font
 
 
+ 
