@@ -42,6 +42,7 @@ PATH=$PATH:$PLAN9/bin export PATH
 Acme presents to other programmes as a file system. And Acme serves the Plan 9 File Protocol. FUSE allows you mount Acme into the kernel file tree, which means you don't need to have special support in any programme you would like to interact with acme.
 
 If you have not mounted the file system with FUSE you can still interact with the acme fileserver via `9p`
+
     9p ls acme
 
 All the file servers from 9plan are announced as unix sockets in a namespace directory onto 
