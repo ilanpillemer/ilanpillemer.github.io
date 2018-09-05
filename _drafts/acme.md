@@ -105,6 +105,9 @@ Run this as `acmego -f` from within acme, this will result in `gofmt` running on
 // Each time a .go file is written, acmego checks whether the
 // import block needs adjustment. If so, it makes the changes
 // in the window body but does not write the file. 
+   ...<snip>...
+var gofmt = flag.Bool("f", false, "run gofmt on the entire file after Put")
+
 ```
 from [here](https://github.com/9fans/go/blob/master/acme/acmego/main.go)
 
