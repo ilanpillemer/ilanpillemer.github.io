@@ -115,7 +115,9 @@ from [here](https://github.com/9fans/go/blob/master/acme/acmego/main.go)
 
 ### godef
 
-Fill in some details
+    go get -u github.com/rogpeppe/godef
+    
+run as `godef -acme` to jump to definitions. :tada:
 
 ### Watch
 
