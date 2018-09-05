@@ -37,6 +37,10 @@ PLAN9=/usr/local/plan9 export PLAN9
 PATH=$PATH:$PLAN9/bin export PATH
 ```
 
+# Mouse
+
+Get a 3 button mouse. The `2-1` chord is quintessential to really starting to use acme effectively.
+
 # FUSE
 
 Acme presents to other programmes as a file system. And Acme serves the Plan 9 File Protocol. FUSE allows you mount Acme into the kernel file tree, which means you don't need to have special support in any programme you would like to interact with acme.
