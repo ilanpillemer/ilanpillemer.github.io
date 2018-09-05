@@ -92,9 +92,13 @@ for now... will dig deeper later when I want to use the mount
 
 ## From the community
 
+The community tools are conveniently available [here](https://github.com/9fans/go)
+
+    go get -u 9fans.net/go/...
+    
 ### acmego
 
-Fill in some details
+Run this as `acmego -f` from within acme, this will result in `gofmt` running on your `.go` files when you `Put`. :tada:
 
 ### godef
 
