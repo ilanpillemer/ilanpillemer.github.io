@@ -100,6 +100,14 @@ The community tools are conveniently available [here](https://github.com/9fans/g
 
 Run this as `acmego -f` from within acme, this will result in `gofmt` running on your `.go` files when you `Put`. :tada:
 
+```
+// Acmego watches acme for .go files being written.
+// Each time a .go file is written, acmego checks whether the
+// import block needs adjustment. If so, it makes the changes
+// in the window body but does not write the file. 
+```
+from [here](https://github.com/9fans/go/blob/master/acme/acmego/main.go)
+
 ### godef
 
 Fill in some details
