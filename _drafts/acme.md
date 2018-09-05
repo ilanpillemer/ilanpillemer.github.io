@@ -139,6 +139,9 @@ from [here](https://github.com/9fans/go/blob/master/acme/Watch/main.go)
 
 ## You also need to add some of your own
 
+These are probably are not the best way of doing these things, I am still learning as I go...
+But they work well for me right now.
+
 ### indent region saved as `a+` in `~\bin`
 
     sed s'/^'/'	'/
