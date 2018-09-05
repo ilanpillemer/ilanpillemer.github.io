@@ -192,8 +192,6 @@ NB: See how design philosophy works of building tools on tools here.
 
 [mind meld](https://groups.google.com/forum/#!topic/comp.os.plan9/_YUEVbTFuME%5B1-25%5D)
 
-### hhmmm
-try this font
 
 
  
