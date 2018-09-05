@@ -171,7 +171,7 @@ NB: Thats a tab, even if you can't see it
     
 NB: One or more tabs or spaces....  
 
-### format comments saved as `cmft` in `~\bin`
+### format comments saved as `cfmt` in `~\bin`
 
     c- | fmt -l 60 | c+
 
