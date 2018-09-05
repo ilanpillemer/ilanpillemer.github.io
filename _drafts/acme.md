@@ -141,6 +141,9 @@ Run this as `Watch go test` (or similar) in the relevant acme window to enable T
 ```
 from [here](https://github.com/9fans/go/blob/master/acme/Watch/main.go)
 
+NB: If you middle-click `Get` in the `+watch` window that gets created it also reruns the
+tests. This allows one to re-rerun the tests without having to do no-op edits to run the tests.
+
 ## You also need to add some of your own
 
 These are probably are not the best way of doing these things, I am still learning as I go...
