@@ -119,7 +119,21 @@ Fill in some details
 
 ### Watch
 
-Fill in some details
+Run this as `Watch go test` (or similar) in the relevant acme window to enable TDD.
+
+```
+// Watch runs a command each time files in the current directory change.
+//
+// Usage:
+//
+//	Watch cmd [args...]
+//
+// Watch opens a new acme window named for the current directory
+// with a suffix of /+watch. The window shows the execution of the given
+// command. Each time a file in that directory changes, Watch reexecutes
+// the command and updates the window.
+```
+from [here](https://github.com/9fans/go/blob/master/acme/Watch/main.go)
 
 ## You also need to add some of your own
 
