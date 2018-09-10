@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: testing
 title: azure, tomcat, bitbucket, pipelines, ci, deploy
 ---
 

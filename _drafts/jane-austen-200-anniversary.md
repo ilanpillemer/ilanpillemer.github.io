@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: testing
 title: A Room for Jane Austen
 summary: Exploration of ngrams and using ngram probabilities to construct sentences and paragraphs.
 tags: [fun, profit, hadoop, java. scala]

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: testing
 title: "ethereum ftw!"
 summary: "exploring ethereum for the sake of the future"
 tags: [fun, profit]

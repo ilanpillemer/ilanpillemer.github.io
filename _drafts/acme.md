@@ -1,9 +1,9 @@
 ---
-layout: testing
-title: "acme and me...em dna emca"
+layout: post
+title: "Acme and me"
 ---
 
-# Acme and Me
+# Acme and Me.
 
 After trying several different ways of installing plan9port, eventually
 realised that the best way is to fork the repo, pull and and follow install instructions.
