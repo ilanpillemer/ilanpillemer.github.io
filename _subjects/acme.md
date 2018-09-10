@@ -143,6 +143,13 @@ from [here](https://github.com/9fans/go/blob/master/acme/Watch/main.go)
 NB: If you middle-click `Get` in the `+watch` window that gets created it also reruns the
 tests. This allows one to re-rerun the tests without having to do no-op edits to run the tests.
 
+### editinacme
+
+    EDITOR=editinacme
+    
+This will result in various tools using acme as the editor, for example `git commit`.
+You need to start the `plumber` so its serving the 9p protocol for this to work.. ie just run `plumber`.
+
 ## You also need to add some of your own
 
 These are probably are not the best way of doing these things, I am still learning as I go...
@@ -192,11 +199,19 @@ NB: See how design philosophy works of building tools on tools here.
 9 acme -f '/Users/ilanpillemer/mnt/font/FiraCode-Medium/15a/font' -a -l acme.dump $*  
 ```
      
-#### notes to self
+## The Just Say No
 
-## go through the following link and mind meld from it
+If you use acme, you also have to just say no to the following things as a trade off
 
-[mind meld](https://groups.google.com/forum/#!topic/comp.os.plan9/_YUEVbTFuME%5B1-25%5D)
+* Rectangular Block Selection
+* Syntax high-lighting of code
+* Code completion
+* Customise Themes
+* Code Folding
+
+## miscellaneous
+
+[some chatting in comp.os.plan9](https://groups.google.com/forum/#!topic/comp.os.plan9/_YUEVbTFuME%5B1-25%5D)
 
 
 
