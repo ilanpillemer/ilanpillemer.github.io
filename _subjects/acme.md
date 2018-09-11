@@ -206,6 +206,13 @@ If you use acme, you also have to just say no to the following things as a trade
 * Rectangular Block Selection
 * Syntax high-lighting of code
 * Code completion
+  * The impact this has had on me, is that I now read through the godoc of each package
+    I am working with in the code. As I am restricting my libraries to the golang standard
+    library, this means I am reading a lot of high quality idiomatic go code, as well as
+    understanding the code in more depth, and knowing what it provides. So to my surprise the
+    code I am writing is more succint and idiomatic. So this _trade off_ is now feeling like a
+    _trade up_.
+
 * Customise Themes
 * Code Folding
 
