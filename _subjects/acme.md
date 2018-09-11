@@ -237,7 +237,7 @@ well
     without code folding. This is positive as it makes the code
     cleaner and simpler to understand. However this still remains a
     problem when reading code not written to read well without code
-    folding. Still working on finding a good solution for reasing ugly
+    folding. Still working on finding a good solution for reading ugly
     code or files of this nature.
 
 
