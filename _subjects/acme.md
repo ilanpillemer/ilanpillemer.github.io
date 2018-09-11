@@ -205,6 +205,17 @@ If you use acme, you also have to just say no to the following things as a trade
 
 * Rectangular Block Selection
 * Syntax high-lighting of code
+  * Interestingly this has virtually no impact on me once I am focusing
+and working
+    my mind sees all it needs to see and the syntax highlighting fades
+    away. In fact the syntax highlighting perhaps is more distracting
+    that you realise, and its more peacock that useful in reality. If
+    you need syntax highlighting to understand the code you are
+    writing there is probably a bigger problem afoot. Though similar
+    to my thoughts about code folding not sure how this applies to
+    code you have not written, or perhaps written in languages where
+    syntax is needs highlighting to be read?
+
 * Code completion
   * The impact this has had on me, is that I now read through the godoc of
 each package
