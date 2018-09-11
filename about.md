@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-Be good. Be kind. Live well.
+Be good. Be kind. Live well. 
