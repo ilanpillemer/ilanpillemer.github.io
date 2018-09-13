@@ -15,9 +15,7 @@ layout: default
       {%- for subject in site.subjects -%}
       <li>
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        {% if subject.date != "" %}
-        <span class="subject-meta">updated : {{ subject.date | date: date_format }}</span>
-        {% endif %}
+        <span class="subject-meta">{{ subject.date | date: date_format }}</span>
         <h3>
           <a class="subject-link" href="{{ subject.url | relative_url }}">
             {{ subject.title | escape }}
