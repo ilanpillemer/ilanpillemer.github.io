@@ -15,7 +15,9 @@ layout: default
       {%- for subject in site.subjects -%}
       <li>
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="subject-meta">last updated : {{ subject.date | date: date_format }}</span>
+        {% if subject.date != "" %}
+        <span class="subject-meta">updated : {{ subject.date | date: date_format }}</span>
+        {% endif %}
         <h3>
           <a class="subject-link" href="{{ subject.url | relative_url }}">
             {{ subject.title | escape }}
@@ -36,9 +38,7 @@ layout: default
       {%- for post in site.posts -%}
       <li>
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        {% if cupcake.type != "Lemon" %}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
-        {% endif %}
         <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
