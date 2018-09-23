@@ -35,6 +35,8 @@ show_excerpts : true
 collections:
   subjects:
     output: true
+  man-booker:
+    output: true
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
