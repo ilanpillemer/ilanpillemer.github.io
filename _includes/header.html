@@ -6,6 +6,8 @@
     <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
         <a class="site-title" href="https://github.com/{{ site.github_username| cgi_escape | escape }}">&nbsp;
      <svg class="svg-icon" style="vertical-align:middle;"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg></a>
+     <a class="site-title" href="https://linkedin.com/in/{{ site.linkedin_username| cgi_escape | escape }}">
+     <svg class="svg-icon" style="vertical-align:middle;"><use xlink:href="{{ '/assets/minima-social-icons.svg#linkedin' | relative_url }}"></use></svg></a>
     {%- if page_paths -%}
       <nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
