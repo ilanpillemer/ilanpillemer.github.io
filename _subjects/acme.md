@@ -59,6 +59,8 @@ brew cask install osxfuse
 After rebooting and setting necessary permissions for osxfuse.
 
 ```
+git clone https://go.googlesource.com/image
+
 plan9port (master) -> namespace
 /tmp/ns.ilanpillemer._private_tmp_com.apple.launchd.RyJOO9IIg7_org.macosforge.xquartz:0
 plan9port (master) -> ls `namespace`
@@ -246,7 +248,15 @@ well
 ## miscellaneous
 
 [some chatting in comp.os.plan9](https://groups.google.com/forum/#!topic/comp.os.plan9/_YUEVbTFuME%5B1-25%5D)
+
 [more](https://github.com/9fans/plan9port/issues/97)
+
 [more](https://github.com/jinyangustc/acme-editor)
+
+
+```
+brew install go
+brew install crystal
+```
 
  
