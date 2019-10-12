@@ -246,7 +246,6 @@ well
 ## miscellaneous
 
 [some chatting in comp.os.plan9](https://groups.google.com/forum/#!topic/comp.os.plan9/_YUEVbTFuME%5B1-25%5D)
-
-
+[more](https://github.com/9fans/plan9port/issues/97)
 
  
