@@ -3,6 +3,9 @@ layout: post
 title: "Stuff I use"
 ---
 
+This post keeps a summary of the various
+things I install on my computer.
+
 # App store
 
 + Outlook (App Store)
