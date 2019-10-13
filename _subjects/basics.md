@@ -24,8 +24,10 @@ brew install tree
 
 + Skype for Business (microsoft.com)
 + Brew
++ Gitter
++ Slack
 
-#On Machine
+# On Machine
 
 ```
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
@@ -34,8 +36,8 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
 # Github
 
-+ Acmecrystl
-+ Plan9
++ [Acmecrystl](https://github.com/ilanpillemer/acmecrystal)
++ [Plan9](https://github.com/9fans/plan9port)
 
 # Go
 
