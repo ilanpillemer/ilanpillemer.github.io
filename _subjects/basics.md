@@ -3,10 +3,11 @@ layout: post
 title: "Stuff I use"
 ---
 
-#App store
-Outlook (App Store)
+# App store
 
-#Brew
++ Outlook (App Store)
+
+# Brew
 
 ```
 brew install osxfuse
@@ -16,9 +17,10 @@ brew install exercism
 brew install tree
 ``` 
 
-#Browser
-Skype for Business (microsoft.com)
-Brew
+# Browser
+
++ Skype for Business (microsoft.com)
++ Brew
 
 #On Machine
 
@@ -27,12 +29,14 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 ```
 
 
-#Github
-Acmecrystl
-Plan9
+# Github
 
-#Go
-Plan9
++ Acmecrystl
++ Plan9
+
+# Go
+
++ Plan9
 
 
 

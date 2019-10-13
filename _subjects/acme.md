@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Acme and me"
-date: 2018-09-13
 ---
 After trying several different ways of installing plan9port and acme,
 eventually realised that the best way is to fork the repo, pull and
