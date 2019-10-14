@@ -11,6 +11,17 @@ things I install on my computer.
 + Slack
 + Outlook
 
+# Sdkman
+
+## languages
+
+```
+sdk install kotlin 
+sdk install kscript
+sdk install java # latest version
+sdk install java 8.0.222-amzn # kscript, scala etc need Java 8
+```
+
 # Brew
 
 ## languages
@@ -25,7 +36,7 @@ brew install crystal
 ```
 brew install osxfuse # needed to mount plan9 protocol
 brew install tree
-brew insatll libgc # needed when compling crystal from source
+brew install libgc # needed when compling crystal from source
 ``` 
 
 ## miscellaneous configs
@@ -52,6 +63,7 @@ brew install exercism
 
 + Skype for Business (microsoft.com)
 + [Brew](https://brew.sh)
++ [sdkman](https://sdkman.io)
 + Gitter
 + Office 365
 
