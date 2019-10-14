@@ -75,6 +75,12 @@ az aks get-credentials --resource-group <rg> --name <nm> # sort out tunnels
 
 ```
 
+# Slack Groups
+
++ gameontext
++ londonjavacommunity
++ gophers
+
 
 
 
