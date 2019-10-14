@@ -8,17 +8,37 @@ things I install on my computer.
 
 # App store
 
-+ Outlook (App Store)
++ Slack
++ Outlook
 
 # Brew
 
+## languages
+
 ```
-brew install osxfuse
 brew install go
 brew install crystal
-brew install exercism
+```
+
+## system tools
+
+```
+brew install osxfuse # needed to mount plan9 protocol
 brew install tree
+brew insatll libgc # needed when compling crystal from source
 ``` 
+
+## cloud tools
+
+```
+brew install az # azure cli
+```
+
+## research and development
+
+```
+brew install exercism
+```
 
 # Browser
 
@@ -26,6 +46,7 @@ brew install tree
 + Brew
 + Gitter
 + Slack
++ Office 365
 
 # On Machine
 
