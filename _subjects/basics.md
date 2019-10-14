@@ -57,10 +57,12 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
 # Github
 
-+ [Acmecrystl](https://github.com/ilanpillemer/acmecrystal)
-+ [Plan9](https://github.com/9fans/plan9port)
++ [acmecrystal](https://github.com/ilanpillemer/acmecrystal)
++ [plan9port](https://github.com/9fans/plan9port)
++ [Go Fonts](https://go.googlesource.com/image)
++ [9fans Acme Go Tools](https://github.com/9fans/go) # `go get -u 9fans.net/go/...`
 
-# Go
+# Go Acme Tools
 
 + Plan9
 
