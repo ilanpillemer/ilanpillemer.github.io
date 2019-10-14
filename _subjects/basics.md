@@ -32,6 +32,7 @@ brew insatll libgc # needed when compling crystal from source
 
 ```
 brew install az # azure cli
+brew install kubectl # kubernetes.. omg... ponies!!
 ```
 
 ## research and development
@@ -43,9 +44,8 @@ brew install exercism
 # Browser
 
 + Skype for Business (microsoft.com)
-+ Brew
++ [Brew](https://brew.sh)
 + Gitter
-+ Slack
 + Office 365
 
 # On Machine
@@ -63,6 +63,15 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 # Go
 
 + Plan9
+
+# Notes on Azure
+
+```
+az login
+az account set --subscription "subscription you want to use"
+az aks get-credentials --resource-group <rg> --name <nm> # sort out tunnels
+
+```
 
 
 
