@@ -28,6 +28,13 @@ brew install tree
 brew insatll libgc # needed when compling crystal from source
 ``` 
 
+## miscellaneous configs
+
+```
+git config --global url."git@bitbucket.org:".insteadOf "https://bitbucket.org/"
+git config --global url."git@github.com:".insteadOf "https://github.com/"
+```
+
 ## cloud tools
 
 ```
@@ -61,11 +68,8 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 + [plan9port](https://github.com/9fans/plan9port)
 + [Go Fonts](https://go.googlesource.com/image)
 + [9fans Acme Go Tools](https://github.com/9fans/go) # `go get -u 9fans.net/go/...`
-
-# Go Acme Tools
-
-+ Plan9
-
++ [acme-lsp](https://github.com/fhs/acme-lsp)
++ go-pls
 # Notes on Azure
 
 ```
