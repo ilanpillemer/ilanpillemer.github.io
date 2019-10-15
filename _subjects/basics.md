@@ -35,7 +35,8 @@ brew install crystal
 
 ```
 brew install osxfuse # needed to mount plan9 protocol
-brew install tree
+brew install tree # see http://mama.indstate.edu/users/ice/tree/
+brew install rlwrap # see https://github.com/hanslub42/rlwrap
 brew install libgc # needed when compling crystal from source
 ``` 
 
@@ -44,6 +45,8 @@ brew install libgc # needed when compling crystal from source
 ```
 git config --global url."git@bitbucket.org:".insteadOf "https://bitbucket.org/"
 git config --global url."git@github.com:".insteadOf "https://github.com/"
+go env -w GOPRIVATE=bitbucket.org/bxbdigital # from go 1.13 so doesn't use proxy
+xcode-select --install # xcode command line tools
 ```
 
 ## cloud tools
