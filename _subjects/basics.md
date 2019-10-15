@@ -35,10 +35,16 @@ brew install crystal
 
 ```
 brew install osxfuse # needed to mount plan9 protocol
-brew install tree # see http://mama.indstate.edu/users/ice/tree/
-brew install rlwrap # see https://github.com/hanslub42/rlwrap
+brew install tree # web http://mama.indstate.edu/users/ice/tree/
+brew install rlwrap # web https://github.com/hanslub42/rlwrap
 brew install libgc # needed when compling crystal from source
 ``` 
+
+## editors
+
+```
+brew install emacs --HEAD # only the latest!!!
+```
 
 ## miscellaneous configs
 
@@ -47,6 +53,7 @@ git config --global url."git@bitbucket.org:".insteadOf "https://bitbucket.org/"
 git config --global url."git@github.com:".insteadOf "https://github.com/"
 go env -w GOPRIVATE=bitbucket.org/bxbdigital # from go 1.13 so doesn't use proxy
 xcode-select --install # xcode command line tools
+alias emacs=emacs -nw # only use in console. gui version is too slow and hangy for me
 ```
 
 ## cloud tools
@@ -99,6 +106,8 @@ az aks get-credentials --resource-group <rg> --name <nm> # sort out tunnels
 + gameontext
 + londonjavacommunity
 + gophers
+
+
 
 
 
