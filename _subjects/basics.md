@@ -38,6 +38,7 @@ brew install osxfuse # needed to mount plan9 protocol
 brew install tree # web http://mama.indstate.edu/users/ice/tree/
 brew install rlwrap # web https://github.com/hanslub42/rlwrap
 brew install libgc # needed when compling crystal from source
+brew insrall entr # file watcher web http://eradman.com/entrproject/
 ``` 
 
 ## editors
