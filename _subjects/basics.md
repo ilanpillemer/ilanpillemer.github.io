@@ -55,6 +55,7 @@ git config --global url."git@github.com:".insteadOf "https://github.com/"
 go env -w GOPRIVATE=bitbucket.org/bxbdigital # from go 1.13 so doesn't use proxy
 xcode-select --install # xcode command line tools
 alias emacs=emacs -nw # only use in console. gui version is too slow and hangy for me
+curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh > git-prompt.sh
 ```
 
 ## cloud tools
