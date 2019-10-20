@@ -100,6 +100,11 @@ for now... will dig deeper later when I want to use the mount
 The community tools are conveniently available [here](https://github.com/9fans/go)
 
     go get -u 9fans.net/go/...
+
++ [acme-lsp](https://github.com/fhs/acme-lsp)
++ [acmecrystal](https://github.com/ilanpillemer/acmecrystal)
++ [gopls](https://github.com/golang/tools/tree/master/gopls)
+
     
 ### acmego
 
@@ -260,5 +265,6 @@ brew install crystal
 
 ## Papers
 [original paper](http://doc.cat-v.org/plan_9/4th_edition/papers/acme/)
+[hmmm](https://github.com/9front/9front-test/tree/master/acme/bin)
 
  

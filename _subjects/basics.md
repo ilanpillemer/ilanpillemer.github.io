@@ -10,6 +10,7 @@ things I install on my computer.
 
 + Slack
 + Outlook
++ Twitter # extremely minimal usage though. Just used to keep up to date with grox.io's programming passport
 
 # Sdkman
 
@@ -29,6 +30,7 @@ sdk install java 8.0.222-amzn # kscript, scala etc need Java 8
 ```
 brew install go
 brew install crystal
+brew install guile 
 ```
 
 ## system tools
@@ -79,7 +81,6 @@ brew install exercism
 + Gitter
 + Office 365
 + [Docker Desktop](https://www.docker.com/products/docker-desktop)
-
 # On Machine
 
 ```
