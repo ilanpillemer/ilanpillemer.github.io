@@ -205,6 +205,25 @@ NB: See how design philosophy works of building tools on tools here.
 9pfuse `namespace`/font $HOME/mnt/font
 9 acme -f '/Users/ilanpillemer/mnt/font/FiraCode-Medium/15a/font' -a -l acme.dump $*  
 ```
+
+## Customisation
+
+### Themes
+
+This is very interesting as you cannot change the colour codes for the
+editor through any kind of "config" and you get a very recognisable
+blue and yellow editor. Also you may find a lot of sniping online
+around this; either complaining or extolling the lack of "choice". But
+in reality most customisations of the editor merely requires minor
+code changes and a recompile. And the editor being aimed at
+programmers, and in fact requires building from source anyways.. this
+should be quite trivial to achieve.
+
+I personally tried the blue and yellow for almost a year to see if it
+grew on me. It didn't. I am now trying different colour combinations
+slowly and will publish theme as a gist when I settle. But I already have
+something I personally much prefer to the blue and yellow.
+
      
 ## The Just Say No
 
@@ -237,7 +256,7 @@ each package
     off_ is now feeling like a _trade up_.
 
 
-* Customise Themes
+
 * Code Folding
   * The impact this has had on me is that I am writing code that reads
 well
