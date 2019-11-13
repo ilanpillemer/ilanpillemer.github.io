@@ -28,3 +28,6 @@ things I install on my computer.
 	PATH=$PATH:$PLAN9/bin export PATH
 
 
+# Caps to Ctl
+
+`sudo apt install gnome-tweak-tool`
