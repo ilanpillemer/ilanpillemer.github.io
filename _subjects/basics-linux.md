@@ -23,10 +23,15 @@ things I install on my computer.
 + `sudo apt intall libxt-dev`
 + `sudo apt install libfontconfig1-dev`
 + `sudo apt install libxext-dev`
++ `sudo snap install go --classic`
 
-	PLAN9=/home/ip/Repos/github/plan9port export PLAN9
-	PATH=$PATH:$PLAN9/bin export PATH
+# Plan 9
 
+```
+PLAN9=/home/ilanpillemer/Repos/github/plan9port export PLAN9
+PATH=$PATH:$PLAN9/bin export PATH
+
+```
 
 # Caps to Ctl
 
