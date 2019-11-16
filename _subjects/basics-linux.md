@@ -33,6 +33,27 @@ PATH=$PATH:$PLAN9/bin export PATH
 
 ```
 
+# Pony
+
++ https://github.com/ponylang/ponyc/blob/master/README.md#installation
+
+
+```
+sudo apt-get install \
+     apt-transport-https \
+     ca-certificates \
+     curl \
+     gnupg2 \
+     software-properties-common
+
+sudo apt-get install g++
+
+https://github.com/ponylang/ponyup
+curl --proto '=https' --tlsv1.2 -sSf https://raw.githubusercontent.com/ponylang/ponyup/master/ponyup-init.sh | sh
+
+export PATH=/home/ilanpillemer/.pony/ponyup/bin:$PATH
+```
+
 # Caps to Ctl
 
 `sudo apt install gnome-tweak-tool`
